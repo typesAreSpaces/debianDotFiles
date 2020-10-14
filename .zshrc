@@ -34,9 +34,9 @@ cdclip() {
   cd $(xclip -o) 
 }
 
-updateArchPackages() { 
-  sudo pacman -Qqen > .arch_packages 
+updateDebianPackages() {
+  sudo dpkg-query -f '${binary:Package}\n' -W > .debian_packages
 }
-installArchPackages() { 
-  sudo pacman -S --needed - < .arch_packages 
+installDebianPackages() {
+  sudo xargs -a .debian_packages apt install
 }
