@@ -18,6 +18,7 @@ alias emacs="emacs -nw"
 alias emacs26="emacs26 -nw"
 alias utop="rlwrap ocaml"
 alias v="vim"
+alias nv="nvim"
 
 # scripts
 dotfilesChanges() { 
