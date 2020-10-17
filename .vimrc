@@ -18,7 +18,7 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'mhinz/vim-startify'
 Plug 'ycm-core/YouCompleteMe'
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+"Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'morhetz/gruvbox'
 Plug 'dracula/vim' 
 Plug 'jremmen/vim-ripgrep'
@@ -89,9 +89,6 @@ set nu rnu
 
 highlight Normal ctermbg=none
 "highlight NonText ctermbg=none
-
-let g:coc_enabled=0
-let g:coc_disable_startup_warning = 1
 
 autocmd BufNew,BufEnter * execute "silent! CocDisable"
 autocmd BufLeave * execute "silent! CocDisable"
