@@ -19,6 +19,7 @@ alias emacs26="emacs26 -nw"
 alias utop="rlwrap ocaml"
 alias v="vim"
 alias nv="nvim"
+alias tmux="tmux -f ~/.config/tmux/tmux.conf"
 
 # scripts
 dotfilesChanges() { 
