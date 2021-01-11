@@ -180,8 +180,8 @@ client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
 client.background       #F8F8F2
 
 #exec --no-startup-id picom
-exec --no-startup-id xmodmap $HOME/.Xmodmap
 exec --no-startup-id source $HOME/.xsessionrc
+exec --no-startup-id xrandr -s 1680x1050
 #exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 #exec_always feh --bg-scale $HOME/Pictures/red_wallpaper.jpeg
 
