@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt install zsh git vim curl python3-neovim i3 i3-wm i3lock i3status htop autoconf automake autotools-dev g++ g++-7 gcc gcc-7 gdb python3 python2.7
+sudo apt install zsh git vim curl python3-neovim i3 i3-wm i3lock i3status rofi htop autoconf automake autotools-dev g++ g++-7 gcc gcc-7 gdb python3 python2.7
 
 echo ".cfg" >> .gitignore
 git clone --bare https://github.com/typesAreSpaces/archDotFiles.git $HOME/.cfg
