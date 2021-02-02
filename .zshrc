@@ -9,6 +9,13 @@ export PATH="$HOME/.cargo/bin:$PATH"
 [ -f $ZSH/oh-my-zsh.sh ] && source $ZSH/oh-my-zsh.sh
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
+#[[ $TERM != "screen" ]] && exec tmux
+#if which tmux 2>&1 >/dev/null; then
+  #if [ $TERM != "screen-256color" ] && [ $TERM != "screen" ]; then
+    #tmux attach -t hack || tmux new -s hack; exit
+  #fi
+#fi
+
 # general aliases
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
