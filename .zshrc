@@ -43,3 +43,7 @@ updateDebianPackages() {
 installDebianPackages() {
   sudo xargs -a .debian_packages apt install
 }
+
+eufProject(){
+  cd $HOME/Documents/GithubProjects/EUFInterpolator
+}
