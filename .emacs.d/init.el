@@ -254,8 +254,9 @@
   (set-face-attribute 'org-special-keyword nil :inherit '(font-lock-comment-face fixed-pitch))
   (set-face-attribute 'org-meta-line nil :inherit '(font-lock-comment-face fixed-pitch))
   (set-face-attribute 'org-checkbox nil  :inherit 'fixed-pitch)
-  (set-face-attribute 'line-number nil :inherit 'fixed-pitch)
-  (set-face-attribute 'line-number-current-line nil :inherit 'fixed-pitch))
+  ;;(set-face-attribute 'line-number nil :inherit 'fixed-pitch)
+  ;;(set-face-attribute 'line-number-current-line nil :inherit 'fixed-pitch)
+  )
 
 (defun efs/org-mode-setup ()
   (org-indent-mode)
